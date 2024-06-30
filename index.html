@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test_TeamLead</title>
+  
+  <link href="https://unpkg.com/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__content">
+        <div class="header__logo-box logo-box">
+          <a class="logo-box__link" href="#">
+            LevelUp
+          </a>
+        </div>
+        <nav class="header__nav" id="nav">
+          <ul class="header__items list-reset">
+            <li class="header__item">
+              <a class="header__link js-scroll-link" href="#about">
+                что это
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link js-scroll-link" href="#structure">
+                из&nbsp;чего состоит
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link js-scroll-link" href="#reviews">
+                отзывы
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link js-scroll-link" href="#info">
+                как выглядит
+              </a>
+            </li>
+            <li class="header__item">
+              <a class="header__link js-scroll-link" href="#form">
+                хочу заказать
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__burger burger" id="burger">
+          <button class="burger__btn btn-reset">
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+            <span class="burger__line"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="section about" id="about">
+      <div class="about__wrapper">
+        <div class="container about__container">
+          <div class="about__content">
+            <h1 class="about__title">
+              LevelUp
+            </h1>
+            <picture class="about__picture">
+              <source srcset="img/about/prod(100).webp" media="(max-width: 650px)">
+              <img class="about__img" src="img/about/prod.webp" loading="lazy" alt="Изображение продукта">
+            </picture>
+            <ul class="about__items list-reset">
+              <li class="about__item">
+                <p class="about__desc">
+                  Incidunt perferendis autem culpa. Aliquid magnam nesciunt sint? Inventore ad architecto dolorum rerum.
+                </p>
+              </li>
+              <li class="about__item">
+                <p class="about__desc">
+                  Sed quo provident nostrum, dicta quia eveniet amet doloribus cupiditate nisi!
+                </p>
+              </li>
+              <li class="about__item">
+                <p class="about__desc">
+                  Amet asperiores quisquam officia iure! Aliquid voluptatibus necessitatibus doloremque voluptates quo iusto eligendi, delectus animi corrupti possimus.
+                </p>
+              </li>
+            </ul>
+            <div class="about__box-btn">
+              <a class="about__btn btn btn-reset js-scroll-link" href="#form">Хочу заказать</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <video autoplay muted loop preload="auto" class="about__video">
+        <source type="video/webm" src="video/video1.webm">
+        <source type="video/mp4" src="video/video.mp4">
+      </video>
+    </section>
+    <section class="section structure" id="structure">
+      <div class="container structure__container">
+        <div class="structure__content">
+          <h2 class="structure__title">
+            Состав продукта
+          </h2>
+          <a class="structure__order js-scroll-link" href="#form">
+            <picture class="structure__picture">
+              <source srcset="img/about/prod.webp" media="(max-width: 950px)">
+              <img class="structure__img" src="img/structure/prod(300).webp" loading="lazy" alt="Изображение продукта">
+            </picture>
+          </a>
+          <ul class="structure__items list-reset">
+            <li class="structure__item">
+              <img class="structure__pic" src="img/structure/1.webp" loading="lazy" alt="Изображение ингридиента">
+              <h3 class="structure__subject">Растение</h3>
+              <a class="structure__link js-scroll-link" href="#form">Заказать</a>
+            </li>
+            <li class="structure__item">
+              <img class="structure__pic" src="img/structure/2.webp" loading="lazy" alt="Изображение ингридиента">
+              <h3 class="structure__subject">Другое Растение</h3>
+              <a class="structure__link js-scroll-link" href="#form">Заказать</a>
+            </li>
+            <li class="structure__item">
+              <img class="structure__pic" src="img/structure/3.webp" loading="lazy" alt="Изображение ингридиента">
+              <h3 class="structure__subject">Совсем другое Растение</h3>
+              <a class="structure__link js-scroll-link" href="#form">Заказать</a>
+            </li>
+            <li class="structure__item">
+              <img class="structure__pic" src="img/structure/4.webp" loading="lazy" alt="Изображение ингридиента">
+              <h3 class="structure__subject">Растение Длинное</h3>
+              <a class="structure__link js-scroll-link" href="#form">Заказать</a>
+            </li>
+            <li class="structure__item">
+              <img class="structure__pic" src="img/structure/5.webp" loading="lazy" alt="Изображение ингридиента">
+              <h3 class="structure__subject">Растение</h3>
+              <a class="structure__link js-scroll-link" href="#form">Заказать</a>
+            </li>
+            <li class="structure__item">
+              <img class="structure__pic" src="img/structure/6.webp" loading="lazy" alt="Изображение ингридиента">
+              <h3 class="structure__subject">Самое Длинное Растение</h3>
+              <a class="structure__link js-scroll-link" href="#form">Заказать</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section reviews" id="reviews">
+      <div class="container reviews__container">
+        <div class="reviews__content">
+          <div class="reviews__swiper swiper-container">
+            <ul class="reviews__items list-reset swiper-wrapper">
+              <li class="reviews__item swiper-slide">
+                <img class="reviews__img" src="img/reviews/1.webp" loading="lazy" alt="Пациент 1">
+                <h3 class="reviews__title">
+                  Первый пациент
+                </h3>
+                <p class="reviews__desc">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo adipisci tempora similique mollitia labore quasi, facilis velit, voluptates quibusdam illum itaque sunt, maiores facere nesciunt excepturi numquam quo! Corrupti, nesciunt.
+                </p>
+              </li>
+              <li class="reviews__item swiper-slide">
+                <img class="reviews__img" src="img/reviews/2.webp" loading="lazy" alt="Пациент 2">
+                <h3 class="reviews__title">
+                  Второй пациент
+                </h3>
+                <p class="reviews__desc">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut explicabo possimus rem incidunt, quia laudantium velit eveniet consequatur, ducimus ut, odio temporibus nobis optio delectus iste iusto deleniti sed minus?
+                </p>
+              </li>
+              <li class="reviews__item swiper-slide">
+                <img class="reviews__img" src="img/reviews/3.webp" loading="lazy" alt="Пациент 3">
+                <h3 class="reviews__title">
+                  Третий пациент
+                </h3>
+                <p class="reviews__desc">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis quis temporibus unde excepturi itaque est illo, distinctio assumenda, dolorum nemo inventore quibusdam commodi. Magnam exercitationem sequi voluptates, tempora minus reiciendis!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque magnam adipisci delectus sequi rem dolorum, quaerat corporis laboriosam molestias quae totam consequatur iste soluta eos earum ex libero, dignissimos rerum.
+                </p>
+              </li>
+            </ul>
+            <div class="reviews__swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section info" id="info">
+      <div class="container info__container">
+        <div class="info__content">
+          <h2 class="info__title">Информация</h2>
+          <picture class="info__picture">
+            <source srcset="img/info/doctor(250).webp" media="(max-width: 800px)">
+            <img class="info__img" src="img/info/doctor(500).webp" loading="lazy" alt="Изображение продукта">
+          </picture>
+          <p class="info__desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, tenetur sint aliquid necessitatibus, reiciendis accusantium nobis dolore adipisci deserunt dicta incidunt aspernatur quisquam. Iste fugit odio eaque ab quibusdam perferendis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis cumque obcaecati doloribus eius? Adipisci iste id accusamus, ut quam ex sed magnam iusto repudiandae cupiditate repellendus nobis molestias! Itaque, amet? Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore est reprehenderit illo quam officia, ad libero iste quis, nostrum expedita consectetur, sit hic ab repellendus accusamus nisi perferendis sed et. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum fuga in laboriosam obcaecati fugiat, quo itaque, minima eveniet atque soluta rerum dolor! Ad, amet beatae soluta ab nemo commodi rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum placeat doloribus fugiat cumque magnam libero temporibus minima ea non beatae reprehenderit asperiores harum consequuntur itaque culpa, totam voluptate facere! Inventore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit nemo explicabo porro deleniti, possimus, eum ratione impedit repudiandae repellat, cumque vitae. Laudantium numquam aliquid nobis doloremque aspernatur, corrupti odio veritatis? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <ul class="info__items list-reset">
+            <li class="info__item">
+              <p class="info__text">
+                Praesentium eaque deleniti cupiditate eligendi, atque harum quas voluptas fuga.
+              </p>
+            </li>
+            <li class="info__item">
+              <p class="info__text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              </p>
+            </li>
+            <li class="info__item">
+              <p class="info__text">
+                Earum debitis, sapiente facere impedit beatae repellat atque accusantium at maiores ea quae numquam, facilis, ipsam quidem perferendis quaerat laborum reprehenderit veritatis?
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="section form" id="form">
+      <div class="container form__container">
+        <form class="form__content" id="myForm" method="post" action="https://jsonplaceholder.typicode.com/posts">
+          <div class="fotm__box-top">
+            <h2 class="form__title">
+              LevelUp
+            </h2>
+            <div class="form__timer">
+              <span class="form__span" id="timer"></span>
+            </div>
+          </div>
+          <div class="form__box-left">
+            <img class="form__img" src="img/form/prod.webp" alt="Изображение продукта">
+            <ul class="form__items list-reset">
+              <li><p class="form__desc new-price" content="1000 р.">1000 р.</p></li>
+              <li><p class="form__desc old-price">900 р.</p></li>
+            </ul>
+          </div>
+          <div class="form__box-right">
+            <label class="form__label" for="name" help="Например: Иван" error="Проверьте имя*">
+              <input class="form__input" id="name" name="name" type="text" placeholder="Ведите имя">
+            </label>
+            <label class="form__label" for="phone" help="Например: 89509998855" error="Проверьте номер*">
+              <input class="form__input" id="phone" name="phone" type="tel" placeholder="Ведите номер телефона">
+            </label>
+            <button class="form__btn btn btn-reset" id="submit">Отправить</button>
+          </div>
+        </form>
+        <button class="form__btn-top btn btn-reset" id="btnTop">
+          <span></span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="footer">
+    <div class="container footer__container">
+      <div class="footer__top">
+        <ul class="footer__items list-reset">
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#whatsapp"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <use xlink:href="img/sprite.svg#youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__bottom">
+        <address class="footer__address">
+          <a class="footer__link tel" href="tel:+79001111111">+7-900-111-11-11</a>
+          <a class="footer__link email" href="mailto:zoo_cry@mail.ru">zoo_cry@mail.ru</a>
+        </address>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
